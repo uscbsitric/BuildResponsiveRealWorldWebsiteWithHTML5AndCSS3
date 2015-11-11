@@ -2,7 +2,14 @@
 {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /*defines the height and width for the entire box   model*/
+}
+
+.clearfix:after
+{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 body
@@ -37,4 +44,30 @@ h2
 #authorText
 {
     font-size: 22px;
+}
+
+.container
+{
+    width: 1140px;
+    margin: 20px auto 0 auto;
+}
+
+.blogPost
+{
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+
+}
+
+.otherPosts
+{
+    width: 25%;
+    float:left;
+}
+
+.author-box
+{
+    padding-top: 20px;
+    border-top: 1px solid #808080;
 }
