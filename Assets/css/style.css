@@ -60,7 +60,7 @@ h2
     width: 75%;
     float: left;
     padding-right: 30px;
-
+    position: relative;
 }
 
 .otherPosts
@@ -92,4 +92,12 @@ h2
 {
     height: 150px;
     width: auto;
+}
+
+.date
+{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+
 }
