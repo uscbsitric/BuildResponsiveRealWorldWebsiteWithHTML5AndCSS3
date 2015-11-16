@@ -1,0 +1,17 @@
+/*Targets All Elements*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*The width and height properties (and min/max properties) includes content, padding and border, but not the margin*/
+}
+
+html
+{
+    background-color: white;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
