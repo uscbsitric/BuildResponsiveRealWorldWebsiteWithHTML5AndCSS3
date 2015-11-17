@@ -1,3 +1,4 @@
+/* SANDALO, Frederick --- uscbsitric@gmail.com */
 /*Targets All Elements*/
 *
 {
@@ -12,7 +13,6 @@ html
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-size: 20px;
-    font-weight: 300;
     text-rendering: optimizeLegibility;
 }
 
@@ -33,6 +33,13 @@ header
 h1
 {
     margin: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 200%; /* In responsive web design, everything has to be relative, so in this case the font size should be 200 percent if 20px(specified in the html{} selector.) */
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
 }
 
 .heroTextBox
@@ -42,4 +49,50 @@ h1
     top: 50%; /* 50% from the top */
     left: 50%; /* 50% from the left */
     transform: translate(-50%, -50%); /* Translates the element half of its width and half of its height */
+}
+
+.btn:link,
+.btn:visited
+{
+    display: inline-block; /* Just like an inline element but, that can have padding and margin.  So the difference is that it doesnt force a line break but you can attribute it some padding and some margin unlike a normal inline element. (BUT this is weird, I tried making a normal Anchor tag and added some margin and padding at it works :( hmmm....  )*/
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.5s, border 0.5s, color 0.5s; /* Specifies the delay in reflecting the changes */
+}
+
+.btnFull:link,
+.btnFull:visited
+{
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btnGhost:link,
+.btnGhost:visited
+{
+    border: 1px solid #e67e22;
+    color: #e67e22;
+}
+
+.btn:hover,
+.btn:active
+{
+    background-color: #cf6d17;
+}
+
+.btnFull:hover,
+.btnFull:active
+{
+    border: 1px solid #cf6d17;
+}
+
+.btnGhost:hover,
+.btnGhost:active
+{
+    border: 1px solid #cf6d17;
+    color: #fff;
 }
