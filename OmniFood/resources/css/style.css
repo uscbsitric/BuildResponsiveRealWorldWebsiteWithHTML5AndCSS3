@@ -21,3 +21,25 @@ html
     max-width: 1140px;
     margin: 0 auto 0 auto;
 }
+
+header
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-size: cover; /* Tells the browser to display the whole image instead of being zoomed in. */
+    background-position: center;
+    height: 100vh; /* 100% of the viewport height, makes the image 100 percent visible in the entire viewport. */
+}
+
+h1
+{
+    margin: 0;
+}
+
+.heroTextBox
+{
+    position: absolute;
+    width: 1140px;
+    top: 50%; /* 50% from the top */
+    left: 50%; /* 50% from the left */
+    transform: translate(-50%, -50%); /* Translates the element half of its width and half of its height */
+}
