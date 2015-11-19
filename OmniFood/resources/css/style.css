@@ -12,6 +12,13 @@
     box-sizing: border-box; /*The width and height properties (and min/max properties) includes content, padding and border, but not the margin*/
 }
 
+.SQUARE
+{
+    border-color: crimson;
+    border-width: thin;
+    border-style: solid;
+}
+
 /*********************************************
 *** BASIC SETUP
 *********************************************/
@@ -37,7 +44,6 @@ html
 section
 {
     padding: 80px 0;
-
 }
 
 .box
@@ -228,4 +234,42 @@ header
 .mainNav li a:active
 {
     border-bottom: 2px solid #e67e22;
+}
+
+
+/*********************************************
+*** SECTION FEATURES
+*********************************************/
+.sectionFeatures
+{
+
+}
+
+
+/*********************************************
+*** SECTION MEALS
+*********************************************/
+.mealsShowcase
+{
+    list-style: none;
+    width: 100%;
+}
+
+.mealsShowcase li
+{
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.mealPhoto
+{
+    width: 100%;
+    margin: 0;
+}
+
+.mealPhoto img
+{
+    width: 100%;
+    height: auto;
 }

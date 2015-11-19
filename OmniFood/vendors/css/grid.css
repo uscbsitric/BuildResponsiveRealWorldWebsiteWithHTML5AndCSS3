@@ -1,6 +1,6 @@
 /* html5reset.css - 01/11/2011 */
 
-/************ COMMENTED OUT BY FREDERICK ************************************
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -53,14 +53,14 @@ a {
     background: transparent;
 }
 
-/* change colours to suit your needs
+/* change colours to suit your needs */
 ins {
     background-color: #ff9;
     color: #000;
     text-decoration: none;
 }
 
-/* change colours to suit your needs
+/* change colours to suit your needs */
 mark {
     background-color: #ff9;
     color: #000;
@@ -82,7 +82,7 @@ table {
     border-spacing: 0;
 }
 
-/* change border colour to suit your needs
+/* change border colour to suit your needs */
 hr {
     display: block;
     height: 1px;
@@ -96,7 +96,7 @@ input, select {
     vertical-align: middle;
 }
 
-************ COMMENTED OUT BY FREDERICK ************************************/
+
 
 /*  SECTIONS  ============================================================================= */
 
