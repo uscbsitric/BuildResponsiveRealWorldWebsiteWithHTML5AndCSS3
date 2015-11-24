@@ -15,7 +15,7 @@
 .REDSQUARE
 {
     border-color: crimson;
-    border-width: thin;
+    border-width: thick;
     border-style: solid;
 }
 
@@ -53,6 +53,21 @@ html
     text-rendering: optimizeLegibility;
 }
 
+    /* Clears the float, a technique used in web development and design */
+.clearfix
+{
+    zoom: 1
+}
+.clearfix:after
+{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+    /* Clears the float, a technique used in web development and design */
+
 
 /*********************************************
 *** REUSABLE COMPONENTS
@@ -66,6 +81,7 @@ html
 section
 {
     padding: 80px 0;
+    clear: both;
 }
 
 .box
@@ -310,4 +326,68 @@ header
 {
     transform: scale(1.03);
     opacity: 1.0;
+}
+
+
+/*********************************************
+*** SECTION HOW IT WORKS
+*********************************************/
+.stepsBox
+{
+
+}
+
+.sectionSteps
+{
+    background-color: #dedede; /* #f4f4f4 , #dedede */
+}
+
+.stepsBox:first-child
+{
+    text-align: right; /* doesnt only work for text, works for all inline or inline block elements, and the image is one of those inline block images. */
+    padding-right: 3%;
+    margin-top: 30px;
+}
+
+.stepsBox:last-child
+{
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.appScreen
+{
+    width: 40%;
+}
+
+.worksStep
+{
+    margin-bottom: 50px;
+}
+
+.worksStep:last-of-type
+{
+    margin-bottom: 80px;
+}
+
+.worksStep div
+{
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block; /* to insure the element does not force a line break, so the number can be side by side with the text */
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    float: left;
+    padding: 5px;
+    font-size: 150%;
+    margin-right: 25px;
+}
+
+.btnApp img
+{
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
 }
