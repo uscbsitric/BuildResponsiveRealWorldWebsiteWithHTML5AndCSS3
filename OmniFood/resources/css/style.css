@@ -54,7 +54,7 @@ html
 }
 
     /* Clears the float, a technique used in web development and design */
-.clearfix
+        .clearfix
 {
     zoom: 1
 }
@@ -451,7 +451,7 @@ header
 
 
 /*********************************************
-*** TESTIMONIALS CITIES
+*** SECTION TESTIMONIALS
 *********************************************/
 .sectionTestimonials
 {
@@ -495,8 +495,68 @@ cite img
 
 
 /*********************************************
-*** TESTIMONIALS CITIES
+*** SECTION PLANS
 *********************************************/
+.sectionPlans
+{
+    background-color: #f4f4f4;
+}
+
+.planBox
+{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #e3e3e3;
+}
+
+.planBox div
+{
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.planBox div:first-child
+{
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.planBox div:last-child
+{
+    text-align: center;
+    border: 0;
+}
+
+.planPrice
+{
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #e67e22;
+}
+
+.planPrice span
+{
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.planPriceMeal
+{
+    font-size: 80%;
+}
+
+.planBox ul
+{
+    list-style: none;
+}
+
+
+
+
 
 
 
