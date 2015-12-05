@@ -204,7 +204,8 @@ a:hover, a:active
 *** BUTTONS
 *********************************************/
 .btn:link,
-.btn:visited
+.btn:visited,
+input[type=submit]
 {
     display: inline-block; /* Just like an inline element but, that can have padding and margin.  So the difference is that it doesnt force a line break but you can attribute it some padding and some margin unlike a normal inline element. (BUT this is weird, I tried making a normal Anchor tag and added some margin and padding at it works :( hmmm....  )*/
     padding: 10px 30px;
@@ -215,7 +216,8 @@ a:hover, a:active
 }
 
 .btnFull:link,
-.btnFull:visited
+.btnFull:visited,
+input[type=submit]
 {
     background-color: #e67e22;
     border: 1px solid #e67e22;
@@ -231,13 +233,16 @@ a:hover, a:active
 }
 
 .btn:hover,
-.btn:active
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active
 {
     background-color: #cf6d17;
 }
 
 .btnFull:hover,
-.btnFull:active
+.btnFull:active,
+input[type=submit]
 {
     border: 1px solid #cf6d17;
 }
@@ -555,10 +560,39 @@ cite img
 }
 
 
+/*********************************************
+*** SECTION CONTACT FORM
+*********************************************/
+.contactForm /*This will center the contactForm inside its parent element*/
+{
+    width: 60%;
+    margin: 0 auto;
+}
 
+input[type=text],
+input[type=email],
+select,
+textarea
+{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
 
+input[type=checkbox]
+{
+    margin: 10px 5px 10px 0;
+}
 
+textarea
+{
+    height: 100px;
+}
 
-
+*:focus
+{
+    outline: none;
+}
 
 
