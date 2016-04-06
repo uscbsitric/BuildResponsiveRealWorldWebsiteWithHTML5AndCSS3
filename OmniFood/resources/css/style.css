@@ -48,7 +48,7 @@ html
 {
     background-color: white;
     color: #555;
-    font-family: 'fredericksLato';
+    font-family: 'Lato';
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
@@ -563,6 +563,11 @@ cite img
 /*********************************************
 *** SECTION CONTACT FORM
 *********************************************/
+.sectionForm
+{
+    height: 590px!important;
+}
+
 .contactForm /*This will center the contactForm inside its parent element*/
 {
     width: 60%;
@@ -596,3 +601,99 @@ textarea
 }
 
 
+/*********************************************
+*** SECTION FOOTER
+*********************************************/
+footer
+{
+    background-color: #333333;
+    height: 150px;
+}
+
+.footerNav
+{
+    list-style: none;
+    float: left;
+}
+
+.socialLinks
+{
+    list-style: none;
+    float: right;
+}
+
+.footerNav li,
+.socialLinks li
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footerNav   li:last-child,
+.socialLinks li:last-child
+{
+    margin-right: 0px!important;
+}
+
+.footerNav li a:link,
+.footerNav li a:visited,
+.socialLinks li a:link,
+.socialLinks li a:visited
+{
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.socialLinks li a,
+.socialLinks li a
+{
+    font-size: 120%;
+}
+
+.footerNav li a:hover,
+.footerNav li a:active
+{
+    color: #ddd;
+}
+
+.copyrightContainer
+{
+    width: 100%;
+}
+
+footer p
+{
+    width: 100%;
+    color: #888;
+    text-align: center;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram
+{
+    transition: color 0.2s;
+}
+
+.ion-social-facebook:hover
+{
+    color: #3b5998;
+}
+
+.ion-social-twitter:hover
+{
+    color: #00aced;
+}
+
+.ion-social-googleplus:hover
+{
+    color: #dd4b39;
+}
+
+.ion-social-instagram:hover
+{
+    color: #517fa4;
+}
